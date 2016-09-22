@@ -77,3 +77,7 @@ EditAction 1474548169927 TestBowling.java 1782 6 24 5
 UnitTestCaseAction 1474548172382 TestBowling.java FAIL
 UnitTestSessionAction 1474548172383 TestBowling.java FAIL
 EditAction 1474548177034 TestBowling.java 1782 6 24 5
+UnitTestCaseAction 1474548179692 TestBowling.java FAIL
+UnitTestSessionAction 1474548179693 TestBowling.java FAIL
+RefactoringAction 1474548602964 BowlingGame.java ADD int totalScore FIELD
+EditAction 1474548603897 BowlingGame.java 897 5 6 0
