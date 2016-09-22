@@ -10,6 +10,7 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
+		// Make throw
 		
 	}
 	
