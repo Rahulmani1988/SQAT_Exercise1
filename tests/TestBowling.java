@@ -16,7 +16,7 @@ public class TestBowling {
 		int count = game.numberOfFrames();
 		
 		// Assert
-		assertEquals("Should be 1", 1, 1);
+		assertEquals("Should be 1", count, 1);
 	}
 
 	@Test
