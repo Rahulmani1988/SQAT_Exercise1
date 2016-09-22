@@ -74,3 +74,6 @@ CompilationAction 1474548155618 TestBowling.java
 UnitTestCaseAction 1474548161583 TestBowling.java FAIL
 UnitTestSessionAction 1474548161583 TestBowling.java FAIL
 EditAction 1474548169927 TestBowling.java 1782 6 24 5
+UnitTestCaseAction 1474548172382 TestBowling.java FAIL
+UnitTestSessionAction 1474548172383 TestBowling.java FAIL
+EditAction 1474548177034 TestBowling.java 1782 6 24 5
