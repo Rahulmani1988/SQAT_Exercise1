@@ -10,7 +10,12 @@ public class TestBowling {
 		
 		// Arrange
 		Frame f1 = new Frame(1,1);
-		game.addFrame(f1);
+		try {
+			game.addFrame(f1);
+		} catch (BowlingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		// Act
 		int count = game.numberOfFrames();
