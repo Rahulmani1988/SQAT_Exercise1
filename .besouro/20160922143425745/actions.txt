@@ -91,3 +91,34 @@ EditAction 1474549298219 TestBowling.java 1624 6 21 5
 UnitTestCaseAction 1474549299983 TestBowling.java FAIL
 UnitTestSessionAction 1474549299984 TestBowling.java FAIL
 EditAction 1474549357885 BowlingGame.java 1053 5 6 0
+UnitTestCaseAction 1474549363898 TestBowling.java FAIL
+UnitTestSessionAction 1474549363899 TestBowling.java FAIL
+UnitTestCaseAction 1474549451607 TestBowling.java FAIL
+UnitTestSessionAction 1474549451608 TestBowling.java FAIL
+UnitTestCaseAction 1474549533359 TestBowling.java FAIL
+UnitTestSessionAction 1474549533360 TestBowling.java FAIL
+UnitTestCaseAction 1474549572390 TestBowling.java FAIL
+UnitTestSessionAction 1474549572391 TestBowling.java FAIL
+UnitTestCaseAction 1474549685586 TestBowling.java FAIL
+UnitTestSessionAction 1474549685587 TestBowling.java FAIL
+UnitTestCaseAction 1474549724774 TestBowling.java FAIL
+UnitTestSessionAction 1474549724774 TestBowling.java FAIL
+RefactoringAction 1474549755798 TestBowling.java ADD void test_testGameScore()/2 METHOD
+RefactoringAction 1474549759814 TestBowling.java RENAME test_testGameScore()/2=>void test_testGameScore280() METHOD
+UnitTestCaseAction 1474549823029 TestBowling.java FAIL
+UnitTestSessionAction 1474549823029 TestBowling.java FAIL
+UnitTestCaseAction 1474549853998 TestBowling.java FAIL
+UnitTestSessionAction 1474549853999 TestBowling.java FAIL
+UnitTestCaseAction 1474550085290 TestBowling.java FAIL
+UnitTestSessionAction 1474550085290 TestBowling.java FAIL
+FileOpenedAction 1474550200270 TennisGame.java 1638 6 18 0
+UnitTestCaseAction 1474550253619 TestBowling.java FAIL
+UnitTestSessionAction 1474550253619 TestBowling.java FAIL
+UnitTestCaseAction 1474550382274 TestBowling.java FAIL
+UnitTestSessionAction 1474550382275 TestBowling.java FAIL
+UnitTestCaseAction 1474550589259 TestBowling.java FAIL
+UnitTestSessionAction 1474550589259 TestBowling.java FAIL
+UnitTestCaseAction 1474550694543 TestBowling.java FAIL
+UnitTestSessionAction 1474550694543 TestBowling.java FAIL
+UnitTestCaseAction 1474550750410 TestBowling.java FAIL
+UnitTestSessionAction 1474550750410 TestBowling.java FAIL

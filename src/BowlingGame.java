@@ -20,14 +20,25 @@ public class BowlingGame {
 		frames.add(frame);
 		gameScore += frame.score();
 		
+		// Check past strikes
 		if (frames.size() > 1) {
-			int stopIndex = frames.size() > 3 ? (frames.size() - 3) : 0;
-			for (int i = frames.size(); i == stopIndex; i--) {
+			int stopIndex = frames.size() >= 3 ? (frames.size() - 2) : 0;
+			int backIndex = Math.min(frames.size(),1);
+			for (int i = frames.size()-backIndex; i >= stopIndex; i--) {
 				Frame f = frames.get(i);
 				if (f.isStrike()) {
 					gameScore += frame.score();
 				}
 			}
+		}
+		
+		// TODO
+		// Check past spares
+
+		// TODO
+		// E.O.G.
+		if (frames.size() == 10) {
+			
 		}
 	}
 	
