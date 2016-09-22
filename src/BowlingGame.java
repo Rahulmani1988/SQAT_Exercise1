@@ -20,7 +20,7 @@ public class BowlingGame {
 		frames.add(frame);
 		gameScore += frame.score();
 		
-		if (frames.size() > 2) {
+		if (frames.size() > 1) {
 			int stopIndex = frames.size() > 3 ? (frames.size() - 3) : 0;
 			for (int i = frames.size(); i == stopIndex; i--) {
 				Frame f = frames.get(i);
