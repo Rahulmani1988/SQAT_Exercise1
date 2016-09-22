@@ -78,7 +78,7 @@ public class TestBowling {
 		int score = game.score();
 		
 		// Assert
-		assertEquals("Should be 28!", score, 20);
+		assertEquals("Should be 28!", score, 28);
 	}
 
 	@Test
