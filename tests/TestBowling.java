@@ -61,6 +61,22 @@ public class TestBowling {
 	}
 
 	@Test
+	public void test_testGameScore() {
+		// Arrange
+		Frame f1 = new Frame(5,4);
+		Frame f2 = new Frame(5,4);
+		Frame f3 = new Frame(5,4);
+		Frame f4 = new Frame(5,4);
+		Frame f5 = new Frame(5,4);
+		
+		// Act
+		int score = f1.score();
+		
+		// Assert
+		assertEquals("Should be 6!", score, 6);
+	}
+
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
