@@ -26,8 +26,6 @@ public class TestBowling {
 
 	@Test
 	public void test_testThrowTestStrike() {
-		BowlingGame game = new BowlingGame();
-		
 		// Arrange
 		Frame f1 = new Frame(9,0);
 		
