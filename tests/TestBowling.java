@@ -33,7 +33,19 @@ public class TestBowling {
 		boolean wasStrike = f1.isStrike();
 		
 		// Assert
-		assertEquals("Should be 1", wasStrike, false);
+		assertEquals("Should not be strike!", wasStrike, false);
+	}
+	
+	@Test
+	public void test_testThrowTestSpare() {
+		// Arrange
+		Frame f1 = new Frame(4,6);
+		
+		// Act
+		boolean wasSpare = f1.isStrike();
+		
+		// Assert
+		assertEquals("Should be spare!", wasSpare, true);
 	}
 	
 	@Test
