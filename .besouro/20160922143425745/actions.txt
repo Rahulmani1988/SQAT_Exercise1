@@ -10,3 +10,15 @@ RefactoringAction 1474545573074 TestBowling.java RENAME test()/2=>void test_() M
 RefactoringAction 1474545574088 TestBowling.java RENAME test_()=>void test_add() METHOD
 RefactoringAction 1474545575600 TestBowling.java RENAME test_add()=>void test_addFrame() METHOD
 EditAction 1474545706726 TestBowling.java 356 2 4 0
+CompilationAction 1474545707295 TestBowling.java
+RefactoringAction 1474545739527 TestBowling.java RENAME test_addFrame()=>void test_testaddFrame() METHOD
+RefactoringAction 1474545741539 TestBowling.java RENAME test_testaddFrame()=>void test_testAddFrame() METHOD
+RefactoringAction 1474545744554 TestBowling.java RENAME test_testAddFrame()=>void test_testAddOneFrame() METHOD
+RefactoringAction 1474545820463 BowlingGame.java ADD int number FIELD
+RefactoringAction 1474545822480 BowlingGame.java RENAME number=>int numberOf FIELD
+RefactoringAction 1474545823995 BowlingGame.java RENAME numberOf=>int numberOfFrames FIELD
+RefactoringAction 1474545825510 BowlingGame.java RENAME numberOfFrames=>int numberOfFrames() METHOD
+CompilationAction 1474546100315 TestBowling.java
+CompilationAction 1474546100483 TestBowling.java
+CompilationAction 1474546100484 TestBowling.java
+EditAction 1474546104451 TestBowling.java 436 2 6 1
