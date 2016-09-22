@@ -63,17 +63,28 @@ public class TestBowling {
 	@Test
 	public void test_testGameScore() {
 		// Arrange
+		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(5,4);
 		Frame f2 = new Frame(5,4);
 		Frame f3 = new Frame(5,4);
 		Frame f4 = new Frame(5,4);
 		Frame f5 = new Frame(5,4);
+		try {
+			game.addFrame(f1);
+			game.addFrame(f2);
+			game.addFrame(f3);
+			game.addFrame(f4);
+			game.addFrame(f5);
+		} catch (BowlingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		// Act
-		int score = f1.score();
+		int score = game.score();
 		
 		// Assert
-		assertEquals("Should be 6!", score, 6);
+		assertEquals("Should be 45!", score, 44);
 	}
 
 	@Test
