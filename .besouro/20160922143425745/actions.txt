@@ -63,3 +63,6 @@ RefactoringAction 1474547361332 TestBowling.java RENAME test_testThrowTestSpare(
 RefactoringAction 1474547368349 TestBowling.java RENAME test_testThrowTestSpare()=>void test_testFrameSpare()/2 METHOD
 RefactoringAction 1474547371363 TestBowling.java RENAME test_testFrameSpare()/2=>void test_testFrameScore() METHOD
 EditAction 1474547411339 TestBowling.java 1194 5 15 4
+UnitTestCaseAction 1474547415946 TestBowling.java FAIL
+UnitTestSessionAction 1474547415946 TestBowling.java FAIL
+EditAction 1474547969250 BowlingGame.java 871 5 6 0
