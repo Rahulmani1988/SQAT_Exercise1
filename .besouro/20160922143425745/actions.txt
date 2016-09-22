@@ -81,3 +81,6 @@ UnitTestCaseAction 1474548179692 TestBowling.java FAIL
 UnitTestSessionAction 1474548179693 TestBowling.java FAIL
 RefactoringAction 1474548602964 BowlingGame.java ADD int totalScore FIELD
 EditAction 1474548603897 BowlingGame.java 897 5 6 0
+RefactoringAction 1474548611997 BowlingGame.java RENAME totalScore=>int Score FIELD
+RefactoringAction 1474548613517 BowlingGame.java RENAME Score=>int gameScore FIELD
+EditAction 1474549238371 BowlingGame.java 1053 5 6 0
