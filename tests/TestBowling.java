@@ -25,7 +25,7 @@ public class TestBowling {
 	}
 
 	@Test
-	public void test_testThrowTestStrike() {
+	public void test_testFrameStrike() {
 		// Arrange
 		Frame f1 = new Frame(9,0);
 		
@@ -37,7 +37,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_testThrowTestSpare() {
+	public void test_testFrameSpare() {
 		// Arrange
 		Frame f1 = new Frame(4,6);
 		
@@ -48,6 +48,18 @@ public class TestBowling {
 		assertEquals("Should be spare!", wasSpare, true);
 	}
 	
+	@Test
+	public void test_testFrameScore() {
+		// Arrange
+		Frame f1 = new Frame(1,5);
+		
+		// Act
+		int score = f1.score();
+		
+		// Assert
+		assertEquals("Should be 6!", score, 6);
+	}
+
 	@Test
 	public void test() {
 		fail("Not yet implemented");

@@ -57,3 +57,9 @@ EditAction 1474547075297 TestBowling.java 1005 4 12 3
 UnitTestCaseAction 1474547077735 TestBowling.java FAIL
 UnitTestSessionAction 1474547077735 TestBowling.java FAIL
 EditAction 1474547317939 Frame.java 780 6 10 0
+RefactoringAction 1474547329283 TestBowling.java ADD void test_testThrowTestSpare()/2 METHOD
+RefactoringAction 1474547352315 TestBowling.java RENAME test_testThrowTestStrike()=>void test_testFrameStrike() METHOD
+RefactoringAction 1474547361332 TestBowling.java RENAME test_testThrowTestSpare()/2=>void test_testFrameSpare() METHOD
+RefactoringAction 1474547368349 TestBowling.java RENAME test_testThrowTestSpare()=>void test_testFrameSpare()/2 METHOD
+RefactoringAction 1474547371363 TestBowling.java RENAME test_testFrameSpare()/2=>void test_testFrameScore() METHOD
+EditAction 1474547411339 TestBowling.java 1194 5 15 4
