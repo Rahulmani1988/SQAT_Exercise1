@@ -38,3 +38,10 @@ CompilationAction 1474546468038 TestBowling.java
 UnitTestCaseAction 1474546468281 TestBowling.java FAIL
 UnitTestSessionAction 1474546468282 TestBowling.java FAIL
 EditAction 1474546726985 Frame.java 697 6 8 0
+RefactoringAction 1474546740650 TestBowling.java ADD void test_testAddOneFrame()/2 METHOD
+RefactoringAction 1474546749680 TestBowling.java RENAME test_testAddOneFrame()/2=>void test_testFrame() METHOD
+RefactoringAction 1474546751196 TestBowling.java RENAME test_testFrame()=>void test_testThFrame() METHOD
+RefactoringAction 1474546752712 TestBowling.java RENAME test_testThFrame()=>void test_testThrowFrame() METHOD
+RefactoringAction 1474546766230 TestBowling.java RENAME test_testThrowFrame()=>void test_testThrowTestFrame() METHOD
+RefactoringAction 1474546769746 TestBowling.java RENAME test_testThrowTestFrame()=>void test_testThrowTestStrike() METHOD
+EditAction 1474546880614 TestBowling.java 819 3 10 2

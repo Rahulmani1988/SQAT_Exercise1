@@ -25,6 +25,20 @@ public class TestBowling {
 	}
 
 	@Test
+	public void test_testThrowTestStrike() {
+		BowlingGame game = new BowlingGame();
+		
+		// Arrange
+		Frame f1 = new Frame(9,0);
+		
+		// Act
+		boolean wasStrike = f1.isStrike();
+		
+		// Assert
+		assertEquals("Should be 1", wasStrike, false);
+	}
+	
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
