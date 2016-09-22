@@ -42,7 +42,7 @@ public class TestBowling {
 		Frame f1 = new Frame(4,6);
 		
 		// Act
-		boolean wasSpare = f1.isStrike();
+		boolean wasSpare = f1.isSpare();
 		
 		// Assert
 		assertEquals("Should be spare!", wasSpare, true);
